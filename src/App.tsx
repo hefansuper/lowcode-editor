@@ -2,12 +2,12 @@
  * @Author: stephenHe
  * @Date: 2025-01-14 21:06:11
  * @LastEditors: stephenHe
- * @LastEditTime: 2025-01-14 21:20:56
+ * @LastEditTime: 2025-01-14 21:41:13
  * @Description: App
  * @FilePath: /lowcode-editor/src/App.tsx
  */
 
-import "./App.css";
+// import "./App.css";
 import LowCodeEditor from "./editor";
 
 function App() {
