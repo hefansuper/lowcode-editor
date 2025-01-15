@@ -2,7 +2,7 @@
  * @Author: stephenHe
  * @Date: 2025-01-15 16:45:19
  * @LastEditors: stephenHe
- * @LastEditTime: 2025-01-15 17:49:27
+ * @LastEditTime: 2025-01-15 18:12:14
  * @Description: 保存全局的组件json数据
  * @FilePath: /lowcode-editor/src/editor/stores/components.tsx
  */
@@ -35,6 +35,15 @@ export const useComponentsStore = create<State & Action>((set, get) => ({
       name: "Page",
       props: {},
       desc: "页面",
+      children: [
+        {
+          id: 222,
+          name: "Container",
+          props: {},
+          children: [],
+          parentId: 1,
+        },
+      ],
     },
   ],
   // 新增的时候必须要传入一个组件对象，和他的父组件id
